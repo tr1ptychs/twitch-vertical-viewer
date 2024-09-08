@@ -50,7 +50,7 @@
 
   const adjustLayout = () => {
 
-    if (window.innerWidth < window.innerHeight) {
+    if ((window.innerWidth < window.innerHeight) && getChannelName() !== '') {
       applyVerticalLayout();
     } else {
       removeVerticalLayout();
