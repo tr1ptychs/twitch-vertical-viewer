@@ -1,14 +1,11 @@
 {
   "manifest_version": 2,
-
-  "name": "Twitch Vertical Layout (Optimized)",
-  "version": "1.7",
-
-  "description": "Changes Twitch layout to vertical with optimized performance",
+  "name": "Twitch Vertical Layout", 
+  "version": "1.0",
+  "description": "Changes Twitch layout to vertical on window resize",
   "permissions": [
     "https://www.twitch.tv/*",
     "https://www.twitch.tv/popout/*/chat?popout="
-
   ],
   "content_scripts": [
     {
